@@ -1,0 +1,15 @@
+D:\Pruebas\PruebaSolucion\Utilities\bin\Debug\net6.0\Utilities.deps.json
+D:\Pruebas\PruebaSolucion\Utilities\bin\Debug\net6.0\Utilities.dll
+D:\Pruebas\PruebaSolucion\Utilities\bin\Debug\net6.0\Utilities.pdb
+D:\Pruebas\PruebaSolucion\Utilities\bin\Debug\net6.0\WebApiEntities.dll
+D:\Pruebas\PruebaSolucion\Utilities\bin\Debug\net6.0\WebApiEntities.pdb
+D:\Pruebas\PruebaSolucion\Utilities\obj\Debug\net6.0\Utilities.csproj.AssemblyReference.cache
+D:\Pruebas\PruebaSolucion\Utilities\obj\Debug\net6.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pruebas\PruebaSolucion\Utilities\obj\Debug\net6.0\Utilities.AssemblyInfoInputs.cache
+D:\Pruebas\PruebaSolucion\Utilities\obj\Debug\net6.0\Utilities.AssemblyInfo.cs
+D:\Pruebas\PruebaSolucion\Utilities\obj\Debug\net6.0\Utilities.csproj.CoreCompileInputs.cache
+D:\Pruebas\PruebaSolucion\Utilities\obj\Debug\net6.0\Utilities.csproj.CopyComplete
+D:\Pruebas\PruebaSolucion\Utilities\obj\Debug\net6.0\Utilities.dll
+D:\Pruebas\PruebaSolucion\Utilities\obj\Debug\net6.0\refint\Utilities.dll
+D:\Pruebas\PruebaSolucion\Utilities\obj\Debug\net6.0\Utilities.pdb
+D:\Pruebas\PruebaSolucion\Utilities\obj\Debug\net6.0\ref\Utilities.dll
