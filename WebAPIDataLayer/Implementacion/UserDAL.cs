@@ -56,6 +56,10 @@ namespace WebAPIDataLayer.Implementacion
 
         public UserDto GetInfo(int id) {
             User user = _context.Users.FirstOrDefault(x => x.Id == id);
+            if(user == null)
+            {
+                return null;
+            }
             return Converter.ConvertToDto(user);
         }
 

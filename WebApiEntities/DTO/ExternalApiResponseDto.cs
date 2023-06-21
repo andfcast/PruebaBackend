@@ -17,6 +17,6 @@ namespace WebApiEntities.DTO
 
         public int total_pages { get; set; }
 
-        public List<UserDto> data { get; set; }
+        public List<UserDto>? data { get; set; }
     }
 }

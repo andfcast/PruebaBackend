@@ -23,6 +23,7 @@
             Permite crear un nuevo User
             </summary>
             <param name="value">User a ser creado</param>
+            <param name="credentials">Credenciales de autenticación</param>        
             <returns></returns>
         </member>
         <member name="M:WebAPIApp.Controllers.UsersController.Put(System.Int32,WebApiEntities.DTO.UserDto)">
@@ -31,6 +32,13 @@
             </summary>
             <param name="id">Uer Id</param>
             <param name="value">Registro modificado</param>
+        </member>
+        <member name="M:WebAPIApp.Controllers.UsersController.ValidateAuth(WebApiEntities.DTO.CredentialDto)">
+            <summary>
+            Función de validación de credenciales.
+            </summary>
+            <param name="credential"></param>
+            <returns></returns>
         </member>
     </members>
 </doc>

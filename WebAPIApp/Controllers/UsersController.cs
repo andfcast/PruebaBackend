@@ -152,6 +152,16 @@ namespace WebAPIApp.Controllers
         public IActionResult Put(int id, [FromBody] UserDto value)
         {
             value.id = id;
+            if ( id == 0 || string.IsNullOrEmpty(value.first_name) || string.IsNullOrEmpty(value.email))
+            {
+                return BadRequest(new ApiResponseDto
+                {
+                    StatusCode = StatusCodes.Status400BadRequest,
+                    StatusName = "Bad Request",
+                    Message = "Fields required. Please check and try again",
+                    IsSuccess = false
+                });
+            }
             if (userBl.Update(value))
             {
                 return Ok(new ApiResponseDto
