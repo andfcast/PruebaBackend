@@ -82,11 +82,12 @@ namespace WebAPIApp.Controllers
             }
                         
         }
-
+        
         /// <summary>
         /// Permite crear un nuevo User
         /// </summary>
         /// <param name="value">User a ser creado</param>
+        /// <param name="credentials">Credenciales de autenticación</param>        
         /// <returns></returns>
         // POST api/<UserController>        
         [HttpPost]
