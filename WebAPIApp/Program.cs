@@ -21,7 +21,8 @@ builder.Services.AddSwaggerGen(options =>
 }
 );
 //Se agrega el dbcontext, en este caso a una base SqLite
-builder.Services.AddDbContext<DbUsersContext>(optionsBuilder => optionsBuilder.UseSqlite("Data Source=.\\DB\\DbUsers.db"));
+//builder.Services.AddDbContext<DbUsersContext>(optionsBuilder => optionsBuilder.UseSqlite("Data Source=C:\\DB\\DbUsers.db"));
+builder.Services.AddDbContext<DbUsersContext>(optionsBuilder => optionsBuilder.UseSqlite(builder.Configuration.GetConnectionString("ConnectionStringSQLite")));
 //se inyectan las clases de lógica y repositorio con sus respectivas interfaces
 builder.Services.AddTransient<IUserBL, UserBL>();
 builder.Services.AddTransient<IUserDAL, UserDAL>();

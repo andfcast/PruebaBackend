@@ -18,8 +18,10 @@ public partial class DbUsersContext : DbContext
 
     public virtual DbSet<User> Users { get; set; }
 
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlite("Data Source=.\\DB\\DbUsers.db");
+    //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    //    //=> optionsBuilder.UseSqlite("Data Source=.\\DB\\DbUsers.db");
+    //    => optionsBuilder.UseSqlite("Data Source=C:\\DB\\DbUsers.db");
+    
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

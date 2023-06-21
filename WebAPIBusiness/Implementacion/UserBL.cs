@@ -16,7 +16,7 @@ namespace WebAPIBusiness.Implementacion
         }
 
         public Boolean SaveToDB(int page) {
-            ApiResponseDto dto = CallService(page);
+            ExternalApiResponseDto dto = CallService(page);
             return _userDal.SaveToDB(dto); ;
         }
 
@@ -36,13 +36,13 @@ namespace WebAPIBusiness.Implementacion
             return _userDal.Update(objUser);
         }
 
-        private ApiResponseDto CallService(int page) {
+        private ExternalApiResponseDto CallService(int page) {
             string urlService = "https://reqres.in/api/users?page=" + page.ToString();
-            ApiResponseDto res = new ApiResponseDto();
+            ExternalApiResponseDto res = new ExternalApiResponseDto();
             HttpClient client= new HttpClient();
             HttpResponseMessage response = client.GetAsync(urlService).Result;
             if (response.IsSuccessStatusCode) {
-                res = JsonConvert.DeserializeObject<ApiResponseDto>(response.Content.ReadAsStringAsync().Result);
+                res = JsonConvert.DeserializeObject<ExternalApiResponseDto>(response.Content.ReadAsStringAsync().Result);
             }
             return res;
         }

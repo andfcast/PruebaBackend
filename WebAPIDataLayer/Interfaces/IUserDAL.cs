@@ -16,7 +16,7 @@ namespace WebAPIDataLayer.Interfaces
         List<UserDto> GetAll(PageInfoDto info);
         UserDto GetInfo(int id);
 
-        bool SaveToDB(ApiResponseDto dto);
+        bool SaveToDB(ExternalApiResponseDto dto);
         bool Create(UserDto user);
 
         bool Update(UserDto user);

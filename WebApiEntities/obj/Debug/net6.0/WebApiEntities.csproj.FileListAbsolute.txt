@@ -12,3 +12,17 @@ D:\Pruebas\PruebaSolucion\WebApiEntities\obj\Debug\net6.0\WebApiEntities.pdb
 D:\Pruebas\PruebaSolucion\WebApiEntities\obj\Debug\net6.0\ref\WebApiEntities.dll
 D:\Pruebas\PruebaSolucion\WebApiEntities\bin\Debug\net6.0\WebApiEntities.runtimeconfig.json
 D:\Pruebas\PruebaSolucion\WebApiEntities\obj\Debug\net6.0\WebApiEntities.genruntimeconfig.cache
+D:\Pruebas\PruebaBackend\WebApiEntities\bin\Debug\net6.0\WebApiEntities.deps.json
+D:\Pruebas\PruebaBackend\WebApiEntities\bin\Debug\net6.0\WebApiEntities.runtimeconfig.json
+D:\Pruebas\PruebaBackend\WebApiEntities\bin\Debug\net6.0\WebApiEntities.dll
+D:\Pruebas\PruebaBackend\WebApiEntities\bin\Debug\net6.0\WebApiEntities.pdb
+D:\Pruebas\PruebaBackend\WebApiEntities\obj\Debug\net6.0\WebApiEntities.csproj.AssemblyReference.cache
+D:\Pruebas\PruebaBackend\WebApiEntities\obj\Debug\net6.0\WebApiEntities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pruebas\PruebaBackend\WebApiEntities\obj\Debug\net6.0\WebApiEntities.AssemblyInfoInputs.cache
+D:\Pruebas\PruebaBackend\WebApiEntities\obj\Debug\net6.0\WebApiEntities.AssemblyInfo.cs
+D:\Pruebas\PruebaBackend\WebApiEntities\obj\Debug\net6.0\WebApiEntities.csproj.CoreCompileInputs.cache
+D:\Pruebas\PruebaBackend\WebApiEntities\obj\Debug\net6.0\WebApiEntities.dll
+D:\Pruebas\PruebaBackend\WebApiEntities\obj\Debug\net6.0\refint\WebApiEntities.dll
+D:\Pruebas\PruebaBackend\WebApiEntities\obj\Debug\net6.0\WebApiEntities.pdb
+D:\Pruebas\PruebaBackend\WebApiEntities\obj\Debug\net6.0\WebApiEntities.genruntimeconfig.cache
+D:\Pruebas\PruebaBackend\WebApiEntities\obj\Debug\net6.0\ref\WebApiEntities.dll

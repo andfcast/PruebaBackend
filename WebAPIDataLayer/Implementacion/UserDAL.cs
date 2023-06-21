@@ -18,7 +18,7 @@ namespace WebAPIDataLayer.Implementacion
             _context = context;
         }
 
-        public Boolean SaveToDB(ApiResponseDto response) {
+        public Boolean SaveToDB(ExternalApiResponseDto response) {
             if (response.data.Count > 0) {
                 List<User> lstUsers = new List<User>();
                 foreach (UserDto dto in response.data)
