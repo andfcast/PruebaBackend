@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebAPIApp</name>
+    </assembly>
+    <members>
+        <member name="M:WebAPIApp.Controllers.UsersController.Get(WebApiEntities.DTO.PageInfoDto)">
+            <summary>
+            Devuelve los resultados paginados de una consulta
+            </summary>
+            <param name="info">Parámetro con los datos de la página y el tamaño que se va a manejar</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPIApp.Controllers.UsersController.Get(System.Int32)">
+            <summary>
+            Obtiene la información de un Uer específico
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPIApp.Controllers.UsersController.Post(WebApiEntities.DTO.UserDto)">
+            <summary>
+            Permite crear un nuevo User
+            </summary>
+            <param name="value">User a ser creado</param>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPIApp.Controllers.UsersController.Put(System.Int32,WebApiEntities.DTO.UserDto)">
+            <summary>
+            Permite actualizar el registro de User
+            </summary>
+            <param name="id">Uer Id</param>
+            <param name="value">Registro modificado</param>
+        </member>
+    </members>
+</doc>
