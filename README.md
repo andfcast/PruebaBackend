@@ -1,7 +1,6 @@
 # PruebaBackend
-
+Esta es la prueba de Backend.
 Se crearon en la solución los proyectos siguientes:
-
 -- API: Donde se encuentra la declaración de las operaciones expuestas del CRUD
 -- AccesoDatos: Donde se encuentra la asociación con la BD. 
 -- LogicaNegocio: Capa de lógica de negocio
