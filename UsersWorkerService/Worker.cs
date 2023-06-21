@@ -29,7 +29,7 @@ namespace UsersWorkerService
                 _logger.LogInformation("Página:" + (count).ToString());
                 SaveData(count);
                 _logger.LogInformation("Fin proceso carga a las: {time}", DateTimeOffset.Now);
-                await Task.Delay(300000, stoppingToken);                                
+                await Task.Delay(30000, stoppingToken);                                
             }
         }
 
